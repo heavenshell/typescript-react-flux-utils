@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "TypeScript + React + Flux-Utils",
   "main": "index.js",
+  "homepage": "https://heavenshell.github.io/typescript-react-flux-utils/",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/heavenshell/typescript-react-flux-utils"
+  },
   "scripts": {
     "prebuild": "npm run cp:html",
     "cp:html": "cpx src/**/*.html dist",
